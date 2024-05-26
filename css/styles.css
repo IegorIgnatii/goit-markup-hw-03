@@ -293,7 +293,7 @@ padding-bottom: 120px;
 
 .portfolio-list {
     display: flex;
-    gap: 20px;
+    gap: 16px;
     max-width: 1128px;
     flex-wrap: wrap;
 }
