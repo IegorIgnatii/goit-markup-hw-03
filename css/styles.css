@@ -52,6 +52,7 @@ padding-bottom: 120px;
     padding-right: 15px;
     margin-left: 141px;
     margin-right: 141px;
+    margin: 0 auto;
 }
 
 
@@ -72,6 +73,7 @@ padding-bottom: 120px;
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo-link {
@@ -87,6 +89,7 @@ padding-bottom: 120px;
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+    margin-right: 76px
 }
 
 .logo-span {
@@ -118,7 +121,6 @@ padding-bottom: 120px;
 .nav-list {
     display: flex;
     gap: 40px;
-    margin-left: 76px;
 }
 
 .header-address {}
