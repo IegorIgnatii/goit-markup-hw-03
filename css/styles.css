@@ -323,6 +323,8 @@ padding-bottom: 120px;
 
 .footer {
     background-color: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-link {
@@ -344,6 +346,8 @@ padding-bottom: 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
+    padding-top: 16px;
 }
 
 /* #endregion footer */
