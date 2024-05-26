@@ -61,6 +61,7 @@ padding-bottom: 120px;
 /* #region header */
 
 .header-flex {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-flex .container {
@@ -296,7 +297,11 @@ padding-bottom: 120px;
     flex-wrap: wrap;
 }
 
-.portfolio-item {}
+.portfolio-item {
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+}
 
 .portfolio-image {}
 
