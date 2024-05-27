@@ -55,6 +55,19 @@ padding-bottom: 120px;
     margin: 0 auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 
 
 /* #endregion base */
@@ -152,6 +165,7 @@ padding-bottom: 120px;
 
 .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .div-hero{
@@ -185,8 +199,9 @@ padding-bottom: 120px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 168px;
-    height: 57px;
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;
 }
 
 .hero-btn:focus,
@@ -251,6 +266,7 @@ padding-bottom: 120px;
 
 .team-item {
     background-color: #FFFFFF
+    width: calc((100% - 72px) / 4);
 }
 
 .team-imege {}
@@ -264,7 +280,8 @@ padding-bottom: 120px;
     color: #2e2f42;
     text-transform: capitalize;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+
 
 }
 
