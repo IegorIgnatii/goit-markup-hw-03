@@ -270,10 +270,12 @@ padding-bottom: 120px;
 
 .team-item {
     background-color: #FFFFFF
-    width: calc((100% - 72px) / 4);
+    weigth: calc((100% - 72px) / 4);
 }
 
-.team-imege {}
+.team-imege {
+    
+}
 
 .team-imege-title {
     font-weight: 500;
