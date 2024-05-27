@@ -314,9 +314,16 @@ padding-bottom: 120px;
 
 .portfolio-list {
     display: flex;
-    gap: 12px;
+    column-gap: 24px;
     max-width: 1128px;
     flex-wrap: wrap;
+    row-gap: 48px;
+}
+
+.portfolio-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-item {
@@ -336,7 +343,7 @@ padding-bottom: 120px;
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding-top: 32px;
-    padding-bottom: 8px;
+    margin-bottom: 8px
 }
 
 .portfolio-text {
@@ -364,6 +371,8 @@ padding-bottom: 120px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-span {
